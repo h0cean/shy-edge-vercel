@@ -27,6 +27,6 @@ const STRIP_HEADERS = new Set([
 
 export default async function handler(req, res) {
   res.statusCode = 420;
-  return res.end("yupe im working bro ")
+  return res.end("tada.im working ")
 }
 
